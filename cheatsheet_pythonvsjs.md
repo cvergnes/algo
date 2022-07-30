@@ -1,8 +1,12 @@
 # cheatsheet python vs js
+
+[Learn Python in x minutes](https://learnxinyminutes.com/docs/python/)
+[Learn js in X minutes](https://learnxinyminutes.com/docs/javascript/)
+
 | Python | Js |
 | ----- | -------|
 | print("ada lovelace".title()) | | 
-| print(f'Hello {world}') | console.log(\`Hello ${world\`)|
+| print(f"Hello I'm {42:.4f}") | console.log(\`Hello ${world\`)|
 | str[::-1] # slicing any indexed based, str[start:stop:step] |  |
 | print(r'\t\n') # python raw strings | |
 | len(string) | str.length |
@@ -24,12 +28,14 @@
 | isTrue = False | |
 | aSet = { 'a','b','c'} | | 
 | aDict = {'a':1,'b':2} | |
+| aDict['a'] = 3 | |
 | aDict = { x:x**2 for x in range(1,5)} # dico comprehension | |
 | for k,v in aDict.items(): ... | |
 | for index, v in enumerate(range(1, 10)) # enumerate rturn value + counter | | 
 | nullValue = None | nullValue = undefined or null |
 | upperLst = list(map(lambda s: s.upper(), lst) | upperLst = lst.map(s => s.upper) |
 | type(var) | typeof var |
+| [on_true] if [expression] else [on_false]  | [expression] ? [on_true] : [on_false]
 
 
 
